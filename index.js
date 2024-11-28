@@ -1,3 +1,4 @@
+// primeNumber function: tells us whether a number is even or odd.
 function primeNumber(num){
     if(num > 1){
         for(let i = 2; i*i <= num; i++){
@@ -10,4 +11,13 @@ function primeNumber(num){
         return false;
     }
 }
-console.log(primeNumber(3));
+
+// Function evenOdd: Tells us whether a number is even or not
+
+function evenOdd(num){
+    if(num % 2 == 0){
+        return true;
+    } else {
+        return false;
+    }
+}
